@@ -1,0 +1,36 @@
+body {
+  background-color: #2F80ED;
+  font-weight: bold;
+  color: #F2F2F2;
+  text-align: center;
+}
+
+div {
+  font-size: 1.6em;
+}
+
+.treetop {
+  font-family: 'Pacifico', cursive;
+  line-height: 110%;
+}
+
+.treetrunk {
+  font-family: 'Rubik', sans-serif;
+  line-height: 30%;
+}
+
+.datetime {
+  font-family: 'Poppins', sans-serif;
+  line-height: 30%
+}
+
+.comment {
+  font-family: 'Poppins', sans-serif;
+  line-height: 100%;
+}
+
+.line {
+  border-top: #F2F2F2 dashed 5px;
+  width: 30%;
+  display: inline-block;
+}
