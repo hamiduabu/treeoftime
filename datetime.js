@@ -1,9 +1,9 @@
 function runDateTime() {
-  let currentDate = new Date();
-  let months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October',
+  const currentDate = new Date();
+  const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October',
     'November', 'December'
   ];
-  let weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  const weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   let wd = weekDays[currentDate.getDay()];
   let dd = currentDate.getDate();
   let mm = months[currentDate.getMonth()];
