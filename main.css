@@ -1,36 +1,31 @@
 body {
-  background-color: #2F80ED;
+  background-color: #2f80ed;
   font-weight: bold;
-  color: #F2F2F2;
+  color: #f2f2f2;
   text-align: center;
-}
-
-div {
-  font-size: 1.6em;
+  font-size: 2em;
 }
 
 .treetop {
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   line-height: 110%;
+  font-size: 1.3em;
 }
 
 .treetrunk {
-  font-family: 'Rubik', sans-serif;
+  font-family: sans-serif;
   line-height: 30%;
+  font-size: 1.3em;
 }
 
-.datetime {
-  font-family: 'Poppins', sans-serif;
-  line-height: 30%
-}
-
-.comment {
-  font-family: 'Poppins', sans-serif;
-  line-height: 100%;
+.datetime > p,
+.comment > p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
 }
 
 .line {
-  border-top: #F2F2F2 dashed 5px;
+  border-top: #f2f2f2 dashed 5px;
   width: 30%;
   display: inline-block;
 }
